@@ -4,7 +4,7 @@ from telegram import Update, Bot
 from telegram.ext import CommandHandler, Updater, CallbackContext
 
 # Your Bot Token here
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TOKEN = '7806213701:AAHsJBlpJh0TyxYAFYKf0qc41C8LEgOy7aw'
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Hello! Send /download <URL> to download a song from Flow.com.mm")
